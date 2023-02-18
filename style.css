@@ -20,11 +20,14 @@ body {
 .nav-item {
   font-size: medium;
   font-weight: bold;
+  padding-left: 10px;
+
 }
 
 .nav-link {
   color: black;
   font-weight: lighter;
+  
 
 }
 
