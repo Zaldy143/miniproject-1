@@ -5,41 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>signup</title>
+    <title>Log in</title>
 
     </style>
 </head>
 <body>
-    <br>
-    <center>
-        <div class="container">
-        <form class="form-horizontal">
-            <div class="control-group">
-            <label class="control-label" for="inputEmail">Email</label>
-           
-            <div class="controls">
-            <input type="text" id="inputEmail" placeholder="Email">
-            </div>
-            </div>
-            <div class="control-group">
-            <label class="control-label" for="inputPassword">Password</label>
-            <div class="controls">
-            <input type="password" id="inputPassword" placeholder="Password">
-            </div>
-            </div>
-            <div class="control-group">
-            <div class="controls">
-            <label class="checkbox">
-            <input type="checkbox"> Remember me
-            </label>
-            <button type="submit" class="btn">Sign in</button>
-            </div>
-            </div>
-           </form>
-        </div>
-    </center>
+    <body background="imagefolder/backgroundimage1.jpg" class="bg-image">
+  
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
+        <div class="modal modal-signin position-static d-block  py-5" tabindex="-1" role="dialog" id="modalSignin">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content rounded-4 shadow">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                  <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
+                 <h1 class="fw-bold mb-0 fs-2">Sign In</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                </div>
+                
+                <div class="modal-body p-5 pt-0" style="">
+                        <div class="container">
+                        <form class="form-horizontal">
+                            <div class="control-group">
+                            <label class="control-label" for="inputEmail">Email</label>
+                           
+                            <div class="controls">
+                            <input type="text" id="inputEmail" style="height: 40px;" placeholder="Email">
+                            </div>
+                            </div>
+                            <div class="control-group">
+                            <label class="control-label" for="inputPassword">Password</label>
+                            <div class="controls">
+                            <input type="password" id="inputPassword" style="height: 40px;" placeholder="Password">
+                            </div>
+                            </div>
+                            <div class="control-group">
+                            <div class="controls">
+                            <label class="checkbox">
+                            <input type="checkbox"> Remember me
+                            </label>
+                            <button type="submit" class="btn">Sign in</button> <br>
+                            No account yet? &nbsp;<a href="#"><u>Sign Up</u></a> 
+                            <br>
+                            <br>
+                            <input type="checkbox" value="submit"> &nbsp; By clicking the sign up button, you are agreeing to our <a href="termsofservice.html"target=_blank"><u>Terms of Use.</u></a> 
+                            </div>
+                            </div>
+                           </form>
+                        </div>
+                    </div>
+                
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="index.js"></script>
 </body>
 </html>

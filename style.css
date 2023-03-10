@@ -2,6 +2,7 @@ body {
   min-height: 75rem;
   padding-top: 4.5rem;
   font-family: sans-serif;
+  background-color: lightyellow;
     
   
 }
@@ -18,7 +19,7 @@ body {
 
 
 .nav-item {
-  font-size: medium;
+  font-size: large;
   font-weight: bold;
 }
 
@@ -32,12 +33,12 @@ body {
 .navbar-brand {
   font-size: x-large;
   font-weight: bolder;
-  color:blue;
+  color:red;
 }
 
 a {
   text-decoration: none;
-  font-size: small;
+  font-size: large;
   font-weight: lighter;
   color: black;
  
@@ -58,18 +59,18 @@ a:hover{
 }
 
 .submit {
-  background-color: lightseagreen;
+  background-color: lightskyblue;
   color: black;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 5px;
 }
 
 .reset {
-  background-color: lightseagreen;
+  background-color: lightskyblue;
   color: black;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 5px;
 }
 
@@ -77,3 +78,22 @@ a:hover{
   float:left; width: 99.5%;
 }
 
+.modal-sheet .modal-dialog {
+  width: 380px;
+  transition: bottom .75s ease-in-out;
+}
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}
+
+.modal-alert .modal-dialog {
+  width: 700px;
+}
+
+.modal-tour .modal-dialog {
+  width: 700px;
+}
+
+#search {
+  padding-right: 20px;
+}

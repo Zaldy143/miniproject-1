@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
-    <title>index</title>
+    <title>Home</title>
     
     
 </head>
@@ -21,7 +21,7 @@
       <div class="navbar-collapse collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html"target=_blank">About</a>
@@ -30,15 +30,20 @@
             <a class="nav-link" href="services.html"target=_blank">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html"target=_blank">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
+          <a href="signin.html" style="padding-left: 15px;"><img src="imagefolder/loginicon.png" style="height:30px;"></a>
         </ul> 
-        
+        <form role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" value="" id="search" onchange="openPage()">
+        </form>
       </div>
     </div>
   </nav>
   <br>
   <br>
+
+  <body background="imagefolder/backgroundimage1.jpg" class="bg-image">
   
   <div class="container">
     <div id="carouselExample" class="carousel slide">
@@ -76,17 +81,16 @@
         
         Regular check-ups can assist in identifying any health problems before they become serious. Upon seeing your”
         Regular medical checkups allow doctors to pick up signs of diseases that the patients may not even know to exist. With routine screenings, the doctor can diagnose potentially severe or life-threatening conditions and prevent any kinds of risks before it is too late or it takes a turn for the worse</p> <br>
-        <button type="button" style="background-color: lightseagreen; border-radius: 5px; padding-left: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 3px; padding-top: 10px;"><a href="https://youtu.be/TGaBjkkhFwA"target=_blank">Watch a video</a></button> 
-        <cite>Ctto of the YT video.</cite></p>
+        <button type="button" style="background-color: skyblue; border-radius: 5px; padding-left: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 3px; padding-top: 10px;"><a href="https://youtu.be/TGaBjkkhFwA"target=_blank">Watch a video</a></button> 
     </div>
   </div>
-  
+  <div class="container">
   <div class="row align-items-md-stretch">
     <div class="col-md-6">
       <div class="h-100 p-5 bg-light rounded-3">
-        <H1>NEED HELP WITH LEGAL ADVICE?</H1>
+        <H3>NEED HELP WITH LEGAL ADVICE?</H3>
         <br>
-        <h2>Legal Quotes</h2>
+        <h4>Legal Quotes</h4>
         <p><ul>
           <br>
           <li>Ethics is knowing the difference between what you have a right to do and what is right to do</li>
@@ -95,14 +99,16 @@
           <li>If you must break the law, do it to seize power: in all other cases observe it.</li>
         </ul></p>
         <br>
-        <button type="button" style="background-color: lightseagreen; border-radius: 5px; padding-left: 5px; padding-bottom: 10px; padding-right: 3px; padding-left: 3px; padding-top: 10px;"><a href="messagelegal.html"target=_blank">Send us a message</a></button>
+        <button type="button" style="background-color: skyblue; border-radius: 5px; padding-left: 5px; padding-bottom: 10px; padding-right: 3px; padding-left: 3px; padding-top: 10px;"><a href="contact.html"target=_blank">Send us a message</a></button>
       </div>
-    </div>
+    </div> <br>
+    <br>
+    
     <div class="col-md-6">
       <div class="h-100 p-5 bg-light border rounded-3">
-        <h1>NEED HELP WITH MEDICAL CONSULTATION?</h1>
+        <h3>NEED HELP WITH MEDICAL CONSULTATION?</h3>
         <br>
-        <h2>The Best Inspirational Health Quotes to Inspire Well-Being</h2>
+        <h4>The Best Inspirational Health Quotes to Inspire Well-Being</h4>
         <p><ul>
           <br>
           <li>“Time and health are two precious assets that we don't recognize and appreciate until they have been depleted.”</li>
@@ -110,19 +116,22 @@
           <li>“A good laugh and a long sleep are the best cures in the doctor's book.”</li>
         </ul></p>
         <br>
-        <button type="button" style="background-color: lightseagreen; border-radius: 5px; padding-left: 5px; padding-bottom: 10px; padding-right: 3px; padding-left: 3px; padding-top: 10px;"><a href="messagemedical.html"target=_blank">Send us a message</a></button>
+        <button type="button" style="background-color: skyblue; border-radius: 5px; padding-left: 5px; padding-bottom: 10px; padding-right: 3px; padding-left: 3px; padding-top: 10px;"><a href="contact.html"target=_blank">Send us a message</a></button>
       </div>
     </div>
   </div>
 </div>
+</div>
   <br>
+  <br>
+ 
     <div class="container">
       
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-4">
             <p>
               <a href="services.html">
-              <img border="0" class="w-100" alt="Responsive image" src="imagefolder/doctor.jpg">
+              <img border="0" class="w-100 rounded-2" style="border-radius: 2px;" alt="Responsive image" src="imagefolder/doctor.jpg">
               </a>
               </p><center><h4>We have experienced doctors.</h4></center>
               <p></p>
@@ -131,7 +140,7 @@
           <div class="col-sm-12 col-md-12 col-lg-4">
             <p>  
              <a href="services.html">
-              <img border="0" alt="Responsive image" src="imagefolder/lawyerpic.jpg" class="w-100">
+              <img border="0" alt="Responsive image" src="imagefolder/lawyerpic.jpg" class="w-100 rounded-2">
               </a>
               </p><center><h4>We have experienced attorneys.</h4></center>
               <p></p>
@@ -140,7 +149,7 @@
           <div class="col-sm-12 col-md-12 col-lg-4">
             <p>
                <a href="services.html">
-              <img border="0" class="w-100" alt="Responsive image" src="imagefolder/tech.jpg">
+              <img border="0" class="w-100 rounded-2" alt="Responsive image" src="imagefolder/tech.jpg">
               </a>
               </p><center><h4>We have experienced CSR/TSR.</h4></center>
               <p></p>
@@ -176,22 +185,50 @@
   <br>
       <br>
   <footer class="footer mt-auto py-3 fw-bold" style="background-color: lightseagreen;">
-    <div class="container-fluid p-0"></div>
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-3"><a href="https://www.facebook.com/britzlinkenables"target=_blank"><img src="imagefolder/fb.png" style="height: 40px;"></a><br><a href="services.html"target=_blank">Services</a><br><a href="contact.html"target=_blank">Contact</a><br><a href="termsofservice.html"target="_blank">Terms of Service</a></div>
-        <div class="col-6 col-sm-3"><a href="https://www.youtube.com/@britzlink886"target=_blank"><img src="imagefolder/youtubeicon.png" style="height: 40px;"></a><br><a href="careers.html"target=_blank">Careers</a><br><a href="ourpartners.html"target=_blank">Our Partners</a><br><a href="https://goo.gl/maps/DAbnexSqebqhj8ny7 "target=_blank">Location &amp; map</a></div>
-        <div class="col-6 col-sm-3"><a href="https://www.instagram.com/britzlinkco/"target=_blank"><img src="imagefolder/insta.png" style="height: 40px;"></a><br><a href="about.html"target=_blank">About Us</a><br><a href="advertise.html"target=_blank">Advertise with Us</a><br><a href="ourclients.html"target=_blank">Our Clients</a></div>
-        <div class="col-6 col-sm-3"><a href="https://twitter.com/BritzLink"target=_blank"><img src="imagefolder/twit.png" style="height: 45px;"></a><br><a href="goals.html"target=_blank">Our Goals</a><br><a href="goals.html "target=_blank">Our Mission</a><br><a href="goals.html"target=_blank">Our Vission</a></div>
+        <div class="col-6 col-sm-3"><a href="services.html"target=_blank">Services</a><br><a href="contact.html"target=_blank">Contact</a><br><a href="termsofservice.html"target="_blank">Terms of Service</a></div>
+        <div class="col-6 col-sm-3"><a href="careers.html"target=_blank">Careers</a><br><a href="ourpartners.html"target=_blank">Our Partners</a><br><a href="https://goo.gl/maps/DAbnexSqebqhj8ny7 "target=_blank">Location &amp; map</a></div>
+        <div class="col-6 col-sm-3"><a href="about.html"target=_blank">About Us</a><br><a href="advertise.html"target=_blank">Advertise with Us</a><br><a href="ourclients.html"target=_blank">Our Clients</a></div>
+        <div class="col-6 col-sm-3"><a href="goals.html"target=_blank">Our Goals</a><br><a href="goals.html "target=_blank">Our Mission</a><br><a href="goals.html"target=_blank">Our Vission</a></div>
       </div>
     <br>
+    <br>
+    <div class="social" style="float: right;">
+      <right>Follow us on:</right>
+      <div class="row">
+        <div class="col-6 col-sm-3"><a href="https://www.facebook.com/britzlinkenables"target=_blank"><img src="imagefolder/fb.png" style="height: 40px;"></a></div>
+        <div class="col-6 col-sm-3"><a href="https://www.youtube.com/@britzlink886"target=_blank"><img src="imagefolder/youtubeicon.png" style="height: 40px;"></a></div>
+        <div class="col-6 col-sm-3"><a href="https://www.instagram.com/britzlinkco/"target=_blank"><img src="imagefolder/insta.png" style="height: 40px;"></a></div>
+        <div class="col-6 col-sm-3"><a href="https://twitter.com/BritzLink"target=_blank"><img src="imagefolder/twit.png" style="height: 45px;"></a></div>
+      </div>
+      
+    </div>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="container">
   <p><a href="index.html">Back to top</a></p>
    <center><p class="copyright">Copyright 2023</p></center>
   </div>
-  <a href="sendmessage.html "target="_blank" class="email">
-    <img border="0" src="imagefolder/emailus.png" style="float: right; height: 50px; padding-right: 15px;">
       </footer> 
-      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.min.js">
+        function openPage(){
+          var x = document.getElementById("search").value;
+
+    if (x === "services"){
+        window.open("/services.html");
+
+    }
+}
+        
+      </script>
+      
+
   
   </body>
 <html>
